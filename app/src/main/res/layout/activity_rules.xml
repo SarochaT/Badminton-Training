@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView8"
-                android:src="@drawable/red"
+                android:src="@drawable/rules1"
                 android:layout_gravity="center_horizontal" />
 
             <TextView
@@ -51,39 +51,90 @@
                 android:id="@+id/textView12"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold"
-                android:textColor="@color/text" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView9"
-                android:src="@drawable/rules2"
-                android:layout_gravity="center_horizontal" />
+                android:textColor="@color/text"
+                android:layout_marginTop="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rules2"
-                android:id="@+id/textView13"
-                android:textSize="@dimen/h1"
-                android:textStyle="bold"
-                android:textColor="@color/text" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView10"
-                android:src="@drawable/rules3"
-                android:layout_gravity="center_horizontal" />
+                android:id="@+id/textView18"
+                android:textSize="@dimen/h2"
+                android:textIsSelectable="true"
+                android:textColor="@color/text"
+                android:layout_marginTop="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rules3"
-                android:id="@+id/textView14"
+                android:id="@+id/textView19"
+                android:textColor="@color/text"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/h2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules4"
+                android:id="@+id/textView20"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules5"
+                android:id="@+id/textView21"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:src="@drawable/im1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules6"
+                android:id="@+id/textView13"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h1"
-                android:textStyle="bold"
-                android:textColor="@color/text" />
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules7"
+                android:id="@+id/textView14"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules8"
+                android:id="@+id/textView22"
+                android:textSize="@dimen/h2"
+                android:textColor="@color/text"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules9"
+                android:id="@+id/textView23"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="10dp" />
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
